@@ -166,7 +166,7 @@ strong{
 
 p,
 blockquote{
-  margin-bottom: 2.6rem;
+  margin-bottom: 1rem;
 }
 
 blockquote{
@@ -7838,6 +7838,39 @@ a.brand:focus{
   
 }
 
+ul {
+  list-style-type:none !important;
+}
+
+#news {
+  background-color:black;
+  color: white;
+  width: 83%;
+  padding: 1rem;
+  margin-top: 1rem;
+  border: 4px solid #cee002;
+}
+
+.hobbies > li > p {
+  font-size: 15px;
+  margin-bottom: 0rem;
+}
+
+#technologies i {
+  font-size: 30px;
+}
+
+
+#news div{
+  margin-bottom: 1rem;
+  background-color:#cee002;
+  color: black;
+  text-align: center;
+}
+
+#news p{
+  margin-bottom: 0.5rem;
+}
 
 
 

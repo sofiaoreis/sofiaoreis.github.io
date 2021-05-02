@@ -29,12 +29,12 @@
 		<span class="close-menu icon-cross2 right-boxed"></span>
 
 		<ul class="menu-list right-boxed">
-		<li data-menuanchor="page2">
-		<a href="docs/cv.pdf">CV</a>
-		</li>
-		<li data-menuanchor="page3">
-		<a href="pubs.html">PUBLICATIONS</a>
-		</li>
+			<li data-menuanchor="page2">
+				<a href="about.heml">ABOUT ME</a>
+				</li>
+				<li data-menuanchor="page3">
+				<a href="pubs.html">PUBLICATIONS</a>
+				</li>
 		<br>
 		<br>
 		<div class="social-list">
@@ -52,7 +52,7 @@
 		</ul>
 		
 		<div class="menu-footer right-boxed">
-		<div class="copy">© Sofia Reis 2020. 404.</div>
+		<div class="copy">© Sofia Reis 2021. 404.</div>
 		</div>
 		</div>
 		<header class="navbar navbar-2 navbar-white boxed">
@@ -70,8 +70,9 @@
 				</div>
 			</a>
 			<div class="social-list hidden-xs">
-				<a href="docs/cv.pdf"><strong>CV</strong></a> 
+				<a href="aboutme.html"><strong>ABOUT ME</strong></a>
 				<a href="pubs.html"><strong>PUBLICATIONS</strong></a>
+				<!-- <a href="docs/cv.pdf"><strong>CV</strong></a>  -->
 			</div>
 		</header>
 		<div class="lang-bottom white boxed"></div>
@@ -91,13 +92,41 @@
 
 				<div class="resume-content">
 				<div class="resume-inner">
+
 					<div class="resume-row">
-				<h6 class="resume-type">Demystifying the Combination of Dynamic Slicing and Spectrum-based Fault Localization &nbsp;|&nbsp; 2019</a></h6>
-				<p class="resume-study"><i><strong>Authors:</strong> <a href="https://twitter.com/sofiaoreis">Sofia Reis</a>, <a href="https://twitter.com/rmaranhao">Rui Abreu</a> and <a href="https://twitter.com/marcelodamorim">Marcelo d'Amorim</a></i></p>
-				<p class="resume-study"><a href="https://www.ijcai19.org/">28th International Joint Conference on Artificial Intelligence (IJCAI'19)</a> - Conference Proceedings (Main Track)<br><strong>Abstract:</strong> Several approaches have been proposed to reduce debugging costs through automated software fault diagnosis. Dynamic Slicing (DS) and Spectrum- based Fault Localization (SFL) are popular fault diagnosis techniques and normally seen as complementary. This paper reports on a comprehensive study to reassess the effects of combining DS with SFL. With this combination, components that are of- ten involved in failing but seldom in passing test runs could be located and their suspiciousness reduced. Results show that the DS-SFL combination, coined as Tandem-FL, improves the diagnostic accuracy up to 73.7% (13.4% on average). Furthermore, results indicate that the risk of missing faulty statements, which is a DS’s key limitation, is not high — DS misses faulty statements in 9% of the 260 cases. To sum up, we found that the DS-SFL combination was practical and effective and encourage new SFL techniques to be evaluated against that optimization. 
+						<h6 class="resume-type">A Systematic Survey of Security-oriented Static Analysis Tools &nbsp;|&nbsp; 2021 - <i>Under Review</i></h6>
+						<p class="resume-study"><i><strong>Authors:</strong> <a href="https://twitter.com/sofiaoreis">Sofia Reis</a> and <a href="https://twitter.com/rmaranhao">Rui Abreu</a></i></p>
+						<p class="resume-study"><a href="https://dl.acm.org/journal/csur">ACM Computing Surveys (CSUR)</a> - Journal, Core Q1<br><strong>Abstract:</strong> 
+							Over the past decades, a vast amount of static analysis tools has been studied, designed, and produced in academia and industry. Static
+analysis is a technique capable of examining entire codebases against coding rules before executing the source code. These tools
+have the potential of addressing issues early on the software development lifecycle by pinpointing software defects such as security
+vulnerabilities. Detecting this type of issues early on decreases the amount of money wasted on maintenance and makes the software
+safer by default. Despite these techniques being around for a few decades, there are still several research opportunities and problems
+to be solved. With this systematic survey, we aim to solve one of them: unstructured knowledge. The knowledge regarding these tools
+is very spread out on the internet and academic papers, which turn the understanding and adoption very difficult.
+In this systematic literature review, we organize and describe the current state of security-oriented static analysis tools (SoSATs) by
+providing a a structured overview of previous approaches, including techniques, programming languages and weaknesses spectra,
+performance, availability, and popularity. This work is a contribution to both industry and academia: industry, by providing a complete
+description of the tools; and academia, by providing a set of open research opportunities in the field.
+		</p>
+						<p class="resume-date text-primary"><i class="fas fa-link"></i>&nbsp;&nbsp;<a href="https://tqrg.github.io/sosats/">Website (WIP)</a>&nbsp;&nbsp;</p> 
+						</div>
+
+					<div class="resume-row">
+				<h6 class="resume-type">Fixing Vulnerabilities Potentially Hinders Maintainability &nbsp;|&nbsp; 2021 - <i>To Appear</i></h6>
+				<p class="resume-study"><i><strong>Authors:</strong> <a href="https://twitter.com/sofiaoreis">Sofia Reis</a>, <a href="https://twitter.com/rmaranhao">Rui Abreu</a> and <a href="https://twitter.com/luismcruz">Luís Cruz</a></i></p>
+				<p class="resume-study"><a href="https://emsejournal.github.io/">Empirical Software Engineer (EMSE'21)</a> - Journal, Core Q1<br><strong>Abstract:</strong> Security is a requirement of utmost importance to produce high-quality software. However, there is still a considerable amount of vulnerabilities being discovered and fixed almost weekly. We hypothesize that developers affect the maintainability of their codebases when patching vulnerabilities. This paper evaluates the impact of patches to improve security on the maintainability of open-source software. Maintainability is measured based on the Better Code Hub’s model of 10 guidelines on a dataset, including 1300 security-related commits. Results show evidence of a trade-off between security and maintainability for 41.90% of the cases, i.e., developers may hinder software maintainability. Our analysis shows that 38.29% of patches increased software complexity and 37.87% of patches increased the percentage of LOCs per unit. The implications of our study are that changes to codebases while patching vulnerabilities need to be performed with extra care; tools for patch risk assessment should be integrate into the CI/CD pipeline; computer science curricula needs to be updated; and, more secure programming languages are necessary.
 </p>
-				<p class="resume-date text-primary"><span class="far fa-calendar"></span>  May 2019 &nbsp;&nbsp;<span class="far fa-file-pdf"></span> <a href="https://www.ijcai.org/proceedings/2019/0661.pdf">PDF</a>&nbsp;&nbsp;<span class="fab fa-github"></span> <a href="https://github.com/damorim/lithium-slicer">Tool</a>&nbsp;&nbsp;<span class="fas fa-percent"></span> 17.8% (850/4752)&nbsp;&nbsp;Core A*</p> 
+				<p class="resume-date text-primary"><span class="far fa-calendar"></span>&nbsp;&nbsp;April 2021&nbsp;&nbsp;<span class="fab fa-github"></span> <a href="https://github.com/TQRG/maintainable-security">Replication Package</a></p> 
 				</div>
+
+				<div class="resume-row">
+					<h6 class="resume-type">Demystifying the Combination of Dynamic Slicing and Spectrum-based Fault Localization &nbsp;|&nbsp; 2019</a></h6>
+					<p class="resume-study"><i><strong>Authors:</strong> <a href="https://twitter.com/sofiaoreis">Sofia Reis</a>, <a href="https://twitter.com/rmaranhao">Rui Abreu</a> and <a href="https://twitter.com/marcelodamorim">Marcelo d'Amorim</a></i></p>
+					<p class="resume-study"><a href="https://www.ijcai19.org/">International Joint Conference on Artificial Intelligence (IJCAI'19)</a> - Conference (Main Track), <span class="fas fa-percent"></span> 17.8% (850/4752), Core A*<br><strong>Abstract:</strong> Several approaches have been proposed to reduce debugging costs through automated software fault diagnosis. Dynamic Slicing (DS) and Spectrum- based Fault Localization (SFL) are popular fault diagnosis techniques and normally seen as complementary. This paper reports on a comprehensive study to reassess the effects of combining DS with SFL. With this combination, components that are of- ten involved in failing but seldom in passing test runs could be located and their suspiciousness reduced. Results show that the DS-SFL combination, coined as Tandem-FL, improves the diagnostic accuracy up to 73.7% (13.4% on average). Furthermore, results indicate that the risk of missing faulty statements, which is a DS’s key limitation, is not high — DS misses faulty statements in 9% of the 260 cases. To sum up, we found that the DS-SFL combination was practical and effective and encourage new SFL techniques to be evaluated against that optimization. 
+	</p>
+					<p class="resume-date text-primary"><span class="far fa-calendar"></span>  May 2019 &nbsp;&nbsp;<span class="far fa-file-pdf"></span> <a href="https://www.ijcai.org/proceedings/2019/0661.pdf">PDF</a>&nbsp;&nbsp;<span class="fab fa-github"></span> <a href="https://github.com/sofiaoreis/lithium-slicer">Tool</a></p> 
+					</div>
 				
 				
 									<div class="resume-row">
