@@ -5057,6 +5057,8 @@ a.brand:focus{
   padding-right: 1.7rem;
 }
 
+
+
 .boxed .container,
 .boxed .container-fluid{
   padding: 0;
@@ -5096,7 +5098,9 @@ a.brand:focus{
 
 /* 3.3 Section About */
 
-
+body > div.pagepiling > div > div > div > div > div > div.boxed > div {
+  width: 1200px;
+}
 
 
 .dots-image{
@@ -7873,4 +7877,11 @@ ul {
 }
 
 
+a#publications.btn.btn-primary {
+  border-radius: 10px;
+  padding: 0.5em 1em 0.5em 1em;
+} 
 
+.collapse {
+  padding-bottom: 30px;
+}
