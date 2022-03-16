@@ -7877,7 +7877,7 @@ ul {
 }
 
 
-a#publications.btn.btn-primary {
+.btn-primary {
   border-radius: 10px;
   padding: 0.5em 1em 0.5em 1em;
 } 
